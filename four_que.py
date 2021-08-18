@@ -1,11 +1,8 @@
-Dic= {
-        1: 'NAVGURUKUL',
-        2: 'IN',  
-  	    3:{    
-             'A' : 'WELCOME',
-             'B' : 'To',
-             'C' : 'DHARAMSALA'
-            }
-        }
-del Dic[3]['A']
-print(Dic)
+Student = {}
+Age = {}
+Details = {}
+Student['name'] = "bikki"
+Age['student_age'] = 14
+Details['Student'] = Student
+Details['Age'] = Age
+print (len(Details["Student"])) 

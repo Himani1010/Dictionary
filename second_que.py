@@ -1,6 +1,2 @@
-dict={"name":"Raju", "marks":56}
-user=input("enter something:")
-if user in dict:
-    print("exist")
-else:
-    print("not exist")
+a = {'a':1,'b':2,'c':3}
+print (a['a','b'])
